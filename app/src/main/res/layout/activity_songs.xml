@@ -4,8 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="8dp"
-    android:background="#9E9E9E"
+    android:background="@color/mainBackground"
+    android:padding="@dimen/paddingOrMar_S"
     tools:context="com.example.android.musicalstructureapp.NowPlayingActivity">
 
 
@@ -17,25 +17,19 @@
 
         <ImageView
             android:id="@+id/songs_back_image_view"
-            android:layout_width="48dp"
-            android:layout_height="48dp"
-            android:padding="8dp"
+            style="@style/ImageBackArrow"
             android:src="@drawable/icon_arrow_back_48px" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Songs"
+            android:text="@string/menu_songs"
             style="@style/MenuParts" />
-
     </LinearLayout>
 
     <ListView
         android:id="@+id/song_list_view"
         android:layout_width="match_parent"
-        android:layout_height="0dp"
+        android:layout_height="@dimen/paddingOrMar_0"
         android:layout_weight="20">
-
     </ListView>
 
 </LinearLayout>

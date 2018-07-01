@@ -4,8 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="8dp"
-    android:background="#9E9E9E"
+    android:background="@color/mainBackground"
+    android:padding="@dimen/paddingOrMar_S"
     tools:context="com.example.android.musicalstructureapp.NowPlayingActivity">
 
         <LinearLayout
@@ -15,33 +15,28 @@
 
             <ImageView
                 android:id="@+id/nowPlaying_back_image_view"
-                android:layout_width="48dp"
-                android:layout_height="48dp"
-                android:padding="8dp"
+                style="@style/ImageBackArrow"
                 android:src="@drawable/icon_arrow_back_48px" />
 
             <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="Now Playing"
+                android:text="@string/menu_now_playing"
                 style="@style/MenuParts" />
-
         </LinearLayout>
 
         <LinearLayout
             android:layout_width="match_parent"
-            android:layout_height="0dp"
+            android:layout_height="@dimen/paddingOrMar_0"
             android:layout_weight="1"
             android:orientation="vertical"
-            android:paddingLeft="16dp"
-            android:background="#BDBDBD"
-            android:paddingRight="16dp">
+            android:background="@color/mainLightBackground"
+            android:paddingLeft="@dimen/paddingOrMar_L"
+            android:paddingRight="@dimen/paddingOrMar_L">
 
             <ImageView
                 android:id="@+id/current_artwork_nowPlaying"
-                android:layout_width="336dp"
-                android:layout_height="336dp"
-                android:layout_marginBottom="8dp"
+                android:layout_width="@dimen/heightOrWidth_L"
+                android:layout_height="@dimen/heightOrWidth_L"
+                android:layout_marginBottom="@dimen/paddingOrMar_S"
                 android:src="@drawable/icon_album_artwork_default_48px" />
 
             <RelativeLayout
@@ -51,31 +46,23 @@
 
                 <TextView
                     android:id="@+id/currentTitle"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     style="@style/SongInfoTextPrimary"
                     tools:text="Current Title" />
 
                 <TextView
                     android:id="@+id/-"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_toRightOf="@+id/currentTitle"
                     style="@style/SongInfoTextPrimary"
-                    android:text=" - " />
+                    android:text="@string/dashSigh" />
 
                 <TextView
                     android:id="@+id/currentArtist"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_toRightOf="@+id/-"
                     style="@style/SongInfoTextPrimary"
                     tools:text="Current Artist" />
 
                 <TextView
                     android:id="@+id/currentAlbum"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"
                     android:layout_below="@+id/currentTitle"
                     style="@style/SongInfoTextSecondary"
                     tools:text="Current Album" />
@@ -86,28 +73,23 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="58dp"
+        android:layout_height="wrap_content"
         android:layout_gravity="bottom"
         android:gravity="center"
         android:orientation="horizontal">
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            style="@style/ButtonNowPlaying"
             android:background="@drawable/icon_back_button_2_60px" />
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-
-            android:layout_marginLeft="12dp"
-            android:layout_marginRight="12dp"
+            style="@style/ButtonNowPlaying"
+            android:layout_marginLeft="@dimen/paddingOrMar_M"
+            android:layout_marginRight="@dimen/paddingOrMar_M"
             android:background="@drawable/icon_play_button_60px" />
 
         <Button
-            android:layout_width="60dp"
-            android:layout_height="60dp"
+            style="@style/ButtonNowPlaying"
             android:background="@drawable/icon_next_button_60px" />
-
     </LinearLayout>
 </LinearLayout>

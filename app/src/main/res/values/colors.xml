@@ -3,5 +3,6 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
-    <!--TODO add all resources to color.xml-->
+    <color name="mainBackground">#9E9E9E</color>
+    <color name="mainLightBackground">#BDBDBD</color>
 </resources>

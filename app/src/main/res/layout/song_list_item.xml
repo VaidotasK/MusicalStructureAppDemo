@@ -4,8 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:background="#BDBDBD"
-    android:padding="8dp">
+    android:background="@color/mainLightBackground"
+    android:padding="@dimen/paddingOrMar_S">
 
     <ImageView
         android:id="@+id/song_artwork_image_view"
@@ -18,7 +18,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
-        android:paddingLeft="8dp">
+        android:paddingLeft="@dimen/paddingOrMar_S">
 
         <TextView
             android:id="@+id/song_title_text_view"

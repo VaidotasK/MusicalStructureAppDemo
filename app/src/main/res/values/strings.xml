@@ -2,4 +2,7 @@
 
     <!--TODO add all resources to STRING.xml-->
     <string name="app_name">Musical Structure App Demo</string>
+    <string name="menu_now_playing">Now Playing</string>
+    <string name="menu_songs">Songs</string>
+    <string name="dashSigh">-</string>
 </resources>

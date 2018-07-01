@@ -4,8 +4,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="8dp"
-    android:background="#9E9E9E"
+    android:background="@color/mainBackground"
+    android:padding="@dimen/paddingOrMar_S"
     tools:context="com.example.android.musicalstructureapp.MainActivity">
 
     <LinearLayout
@@ -26,18 +26,14 @@
 
             <!--Icon is from https://icons8.com/icon/new-icons/all-->
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingRight="12dp"
+                style="@style/ImageMenu"
                 android:src="@drawable/icons_play_48px" />
 
             <TextView
                 android:id="@+id/nowPlayingMenu"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:text="Now Playing"
-                style="@style/Menu" />
+                style="@style/Menu"
+                android:text="@string/menu_now_playing" />
 
         </LinearLayout>
 
@@ -47,18 +43,13 @@
             android:orientation="horizontal">
 
             <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:paddingRight="12dp"
+                style="@style/ImageMenu"
                 android:src="@drawable/icon_song_48px" />
 
             <TextView
                 android:id="@+id/songsMenu"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
                 android:layout_gravity="center_vertical"
-                android:text="Songs"
-
+                android:text="@string/menu_songs"
                 style="@style/Menu" />
 
         </LinearLayout>
