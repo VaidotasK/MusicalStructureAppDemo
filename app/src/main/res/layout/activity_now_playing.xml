@@ -3,73 +3,73 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/mainBackground"
+    android:orientation="vertical"
     android:padding="@dimen/paddingOrMar_S"
     tools:context="com.example.android.musicalstructureapp.NowPlayingActivity">
 
-        <LinearLayout
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/nowPlaying_back_image_view"
+            style="@style/ImageBackArrow"
+            android:src="@drawable/icon_arrow_back_48px" />
+
+        <TextView
+            style="@style/MenuParts"
+            android:text="@string/menu_now_playing" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/paddingOrMar_0"
+        android:layout_weight="1"
+        android:background="@color/mainLightBackground"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/paddingOrMar_L"
+        android:paddingRight="@dimen/paddingOrMar_L">
+
+        <ImageView
+            android:id="@+id/current_artwork_nowPlaying"
+            android:layout_width="@dimen/heightOrWidth_L"
+            android:layout_height="@dimen/heightOrWidth_L"
+            android:layout_marginBottom="@dimen/paddingOrMar_S"
+            android:src="@drawable/icon_album_artwork_default_48px" />
+
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <ImageView
-                android:id="@+id/nowPlaying_back_image_view"
-                style="@style/ImageBackArrow"
-                android:src="@drawable/icon_arrow_back_48px" />
+            <TextView
+                android:id="@+id/currentTitle"
+                style="@style/SongInfoTextPrimary"
+                tools:text="Current Title" />
 
             <TextView
-                android:text="@string/menu_now_playing"
-                style="@style/MenuParts" />
-        </LinearLayout>
+                android:id="@+id/-"
+                style="@style/SongInfoTextPrimary"
+                android:layout_toRightOf="@+id/currentTitle"
+                android:text="@string/dashSign" />
 
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="@dimen/paddingOrMar_0"
-            android:layout_weight="1"
-            android:orientation="vertical"
-            android:background="@color/mainLightBackground"
-            android:paddingLeft="@dimen/paddingOrMar_L"
-            android:paddingRight="@dimen/paddingOrMar_L">
+            <TextView
+                android:id="@+id/currentArtist"
+                style="@style/SongInfoTextPrimary"
+                android:layout_toRightOf="@+id/-"
+                tools:text="Current Artist" />
 
-            <ImageView
-                android:id="@+id/current_artwork_nowPlaying"
-                android:layout_width="@dimen/heightOrWidth_L"
-                android:layout_height="@dimen/heightOrWidth_L"
-                android:layout_marginBottom="@dimen/paddingOrMar_S"
-                android:src="@drawable/icon_album_artwork_default_48px" />
+            <TextView
+                android:id="@+id/currentAlbum"
+                style="@style/SongInfoTextSecondary"
+                android:layout_below="@+id/currentTitle"
+                tools:text="Current Album" />
 
-            <RelativeLayout
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:orientation="horizontal">
+        </RelativeLayout>
 
-                <TextView
-                    android:id="@+id/currentTitle"
-                    style="@style/SongInfoTextPrimary"
-                    tools:text="Current Title" />
-
-                <TextView
-                    android:id="@+id/-"
-                    android:layout_toRightOf="@+id/currentTitle"
-                    style="@style/SongInfoTextPrimary"
-                    android:text="@string/dashSigh" />
-
-                <TextView
-                    android:id="@+id/currentArtist"
-                    android:layout_toRightOf="@+id/-"
-                    style="@style/SongInfoTextPrimary"
-                    tools:text="Current Artist" />
-
-                <TextView
-                    android:id="@+id/currentAlbum"
-                    android:layout_below="@+id/currentTitle"
-                    style="@style/SongInfoTextSecondary"
-                    tools:text="Current Album" />
-
-            </RelativeLayout>
-
-        </LinearLayout>
+    </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"

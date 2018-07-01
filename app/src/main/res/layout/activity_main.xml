@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/mainBackground"
+    android:orientation="vertical"
     android:padding="@dimen/paddingOrMar_S"
     tools:context="com.example.android.musicalstructureapp.MainActivity">
 
@@ -31,8 +31,8 @@
 
             <TextView
                 android:id="@+id/nowPlayingMenu"
-                android:layout_gravity="center_vertical"
                 style="@style/Menu"
+                android:layout_gravity="center_vertical"
                 android:text="@string/menu_now_playing" />
 
         </LinearLayout>
@@ -48,9 +48,9 @@
 
             <TextView
                 android:id="@+id/songsMenu"
+                style="@style/Menu"
                 android:layout_gravity="center_vertical"
-                android:text="@string/menu_songs"
-                style="@style/Menu" />
+                android:text="@string/menu_songs" />
 
         </LinearLayout>
     </LinearLayout>

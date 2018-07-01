@@ -3,8 +3,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/mainBackground"
+    android:orientation="vertical"
     android:padding="@dimen/paddingOrMar_S"
     tools:context="com.example.android.musicalstructureapp.NowPlayingActivity">
 
@@ -21,15 +21,14 @@
             android:src="@drawable/icon_arrow_back_48px" />
 
         <TextView
-            android:text="@string/menu_songs"
-            style="@style/MenuParts" />
+            style="@style/MenuParts"
+            android:text="@string/menu_songs" />
     </LinearLayout>
 
     <ListView
         android:id="@+id/song_list_view"
         android:layout_width="match_parent"
         android:layout_height="@dimen/paddingOrMar_0"
-        android:layout_weight="20">
-    </ListView>
+        android:layout_weight="20"/>
 
 </LinearLayout>

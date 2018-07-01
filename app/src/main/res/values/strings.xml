@@ -4,5 +4,5 @@
     <string name="app_name">Musical Structure App Demo</string>
     <string name="menu_now_playing">Now Playing</string>
     <string name="menu_songs">Songs</string>
-    <string name="dashSigh">-</string>
+    <string name="dashSign">-</string>
 </resources>
