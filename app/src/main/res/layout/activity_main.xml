@@ -27,7 +27,7 @@
             <!--Icon is from https://icons8.com/icon/new-icons/all-->
             <ImageView
                 style="@style/ImageMenu"
-                android:src="@drawable/icons_play_48px" />
+                android:src="@drawable/icon_play_button_60px" />
 
             <TextView
                 android:id="@+id/nowPlayingMenu"

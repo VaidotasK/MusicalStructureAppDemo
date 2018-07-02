@@ -43,15 +43,15 @@
 
     <!--Icon style near menu elements in mainMenu activity-->
     <style name="ImageMenu">
-        <item name="android:layout_width">wrap_content</item>
-        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">@dimen/heightOrWidth_S</item>
+        <item name="android:layout_height">@dimen/heightOrWidth_S</item>
         <item name="android:paddingRight">@dimen/paddingOrMar_M</item>
     </style>
 
     <!--Image style of back arrow, which brings user back-->
     <style name="ImageBackArrow">
         <item name="android:layout_width">@dimen/heightOrWidth_S</item>
-        <item name="android:layout_height">@dimen/heightOrWidth_S</item>
+        <item name="android:layout_height">match_parent</item>
         <item name="android:padding">@dimen/paddingOrMar_S</item>
     </style>
 </resources>

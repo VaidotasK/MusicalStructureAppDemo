@@ -12,7 +12,6 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_weight="1"
         android:orientation="horizontal">
 
         <ImageView
@@ -29,6 +28,6 @@
         android:id="@+id/song_list_view"
         android:layout_width="match_parent"
         android:layout_height="@dimen/paddingOrMar_0"
-        android:layout_weight="20"/>
+        android:layout_weight="1" />
 
 </LinearLayout>
