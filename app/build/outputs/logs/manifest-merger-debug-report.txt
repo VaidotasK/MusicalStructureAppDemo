@@ -1,0 +1,112 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:2:1-28:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\fec01bfda21131183f172a331b683a94\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\eca877e702f63a1fe4020b8122f48876\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\349cb6d3871cf105af39686bd5cfc3af\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\ac99733e7d5d512031255ae2116a39d6\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\a11f6772e2370167166afc1a729312db\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\c88d969c7e097c9b6d3147d2ca58a04f\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\4966a9eec80054975ffc0cf405c0089f\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\876558cc436da067428e88e01560752c\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\e1db6ceaf1195f5b3d838a3bf96201bd\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\45e3b3b5ae2874afc0f4499f3776b61e\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5902aed11944b242f86d63c9668b9968\AndroidManifest.xml:17:1-22:12
+INJECTED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:2:1-28:12
+INJECTED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:2:1-28:12
+	package
+		ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:3:5-54
+		INJECTED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:2:1-28:12
+		INJECTED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:5:5-26:19
+	android:supportsRtl
+		ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:9:9-54
+	android:icon
+		ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:7:9-43
+	android:allowBackup
+		ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.android.musicalstructureapp.MainActivity
+ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:12:9-19:20
+	android:screenOrientation
+		ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:14:13-49
+	android:name
+		ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:13:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:15:13-18:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:16:17-69
+	android:name
+		ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:16:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:17:17-77
+	android:name
+		ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:17:27-74
+activity#com.example.android.musicalstructureapp.NowPlayingActivity
+ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:20:9-22:52
+	android:screenOrientation
+		ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:22:13-49
+	android:name
+		ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:21:13-47
+activity#com.example.android.musicalstructureapp.SongsActivity
+ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:23:9-25:52
+	android:screenOrientation
+		ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:25:13-49
+	android:name
+		ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml:24:13-42
+uses-sdk
+INJECTED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\fec01bfda21131183f172a331b683a94\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\fec01bfda21131183f172a331b683a94\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\eca877e702f63a1fe4020b8122f48876\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\support-fragment-27.1.1.aar\eca877e702f63a1fe4020b8122f48876\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\349cb6d3871cf105af39686bd5cfc3af\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-27.1.1.aar\349cb6d3871cf105af39686bd5cfc3af\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\ac99733e7d5d512031255ae2116a39d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\support-core-ui-27.1.1.aar\ac99733e7d5d512031255ae2116a39d6\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\a11f6772e2370167166afc1a729312db\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\support-core-utils-27.1.1.aar\a11f6772e2370167166afc1a729312db\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\c88d969c7e097c9b6d3147d2ca58a04f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-27.1.1.aar\c88d969c7e097c9b6d3147d2ca58a04f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\4966a9eec80054975ffc0cf405c0089f\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\support-compat-27.1.1.aar\4966a9eec80054975ffc0cf405c0089f\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\876558cc436da067428e88e01560752c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.0.aar\876558cc436da067428e88e01560752c\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\e1db6ceaf1195f5b3d838a3bf96201bd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\e1db6ceaf1195f5b3d838a3bf96201bd\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\45e3b3b5ae2874afc0f4499f3776b61e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\45e3b3b5ae2874afc0f4499f3776b61e\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5902aed11944b242f86d63c9668b9968\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] C:\Users\Garra\.gradle\caches\transforms-1\files-1.1\runtime-1.1.0.aar\5902aed11944b242f86d63c9668b9968\AndroidManifest.xml:20:5-44
+INJECTED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Garra\AndroidStudioProjects\MusicalStructureAppDemo\app\src\main\AndroidManifest.xml
