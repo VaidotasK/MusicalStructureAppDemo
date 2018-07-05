@@ -53,5 +53,6 @@
         <item name="android:layout_width">@dimen/heightOrWidth_S</item>
         <item name="android:layout_height">match_parent</item>
         <item name="android:padding">@dimen/paddingOrMar_S</item>
+        <item name="android:src">@drawable/icon_arrow_back</item>
     </style>
 </resources>

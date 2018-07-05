@@ -16,8 +16,7 @@
 
         <ImageView
             android:id="@+id/songs_back_image_view"
-            style="@style/ImageBackArrow"
-            android:src="@drawable/icon_arrow_back_48px" />
+            style="@style/ImageBackArrow" />
 
         <TextView
             style="@style/MenuParts"

@@ -11,7 +11,7 @@
         android:id="@+id/song_artwork_image_view"
         android:layout_width="@dimen/heightOrWidth_S"
         android:layout_height="@dimen/heightOrWidth_S"
-        tools:src="@drawable/icon_album_artwork_default_48px" />
+        tools:src="@drawable/icon_album_artwork_default" />
 
     <RelativeLayout
         android:id="@+id/songs_text_container"

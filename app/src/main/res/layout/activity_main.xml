@@ -27,7 +27,7 @@
             <!--Icon is from https://icons8.com/icon/new-icons/all-->
             <ImageView
                 style="@style/ImageMenu"
-                android:src="@drawable/icon_play_button_60px" />
+                android:src="@drawable/icon_play_button" />
 
             <TextView
                 android:id="@+id/nowPlayingMenu"
@@ -42,9 +42,10 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
+            <!--Icon is from https://icons8.com/icon/new-icons/all-->
             <ImageView
                 style="@style/ImageMenu"
-                android:src="@drawable/icon_song_48px" />
+                android:src="@drawable/icon_song" />
 
             <TextView
                 android:id="@+id/songsMenu"
