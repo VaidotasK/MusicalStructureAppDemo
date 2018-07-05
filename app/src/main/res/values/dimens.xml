@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Text sizes-->
+    <dimen name="textSize_S">16sp</dimen>
+    <dimen name="textSize_M">20sp</dimen>
+    <dimen name="textSize_L">32sp</dimen>
+    <dimen name="textSize_XL">40sp</dimen>
+
+    <!--Paddings, margins, ect -->
+    <dimen name="paddingOrMar_0">0dp</dimen>
+    <dimen name="paddingOrMar_S">8dp</dimen>
+    <dimen name="paddingOrMar_M">12dp</dimen>
+    <dimen name="paddingOrMar_L">16dp</dimen>
+    <dimen name="paddingOrMar_XL">20dp</dimen>
+
+    <!--Image sizes-->
+    <dimen name="heightOrWidth_S">48dp</dimen>
+    <dimen name="heightOrWidth_M">60dp</dimen>
+    <dimen name="heightOrWidth_L">336dp</dimen>
+
+</resources>

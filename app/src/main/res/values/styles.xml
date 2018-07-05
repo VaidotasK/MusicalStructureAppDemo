@@ -1,0 +1,58 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Text element style in main menu-->
+    <style name="Menu" parent="Theme.AppCompat.Light">
+        <item name="android:textColor">@android:color/black</item>
+        <item name="android:textSize">@dimen/textSize_L</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+    </style>
+
+    <!--Text element style after one of menu items is chosen-->
+    <style name="MenuParts" parent="Menu">
+        <item name="android:textStyle">normal</item>
+        <item name="android:textSize">@dimen/textSize_XL</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+
+    <!--Text style of Primary song info in nowPlaying Activity-->
+    <style name="SongInfoTextPrimary" parent="MenuParts">
+        <item name="android:textSize">@dimen/textSize_M</item>
+    </style>
+
+    <!--Text style of secondary song info in nowPlaying Activity-->
+    <style name="SongInfoTextSecondary" parent="SongInfoTextPrimary">
+        <item name="android:textSize">@dimen/textSize_S</item>
+    </style>
+
+    <!--Button style in nowPlaying activity-->
+    <style name="ButtonNowPlaying">
+        <item name="android:layout_height">@dimen/heightOrWidth_M</item>
+        <item name="android:layout_width">@dimen/heightOrWidth_M</item>
+    </style>
+
+    <!--Icon style near menu elements in mainMenu activity-->
+    <style name="ImageMenu">
+        <item name="android:layout_width">@dimen/heightOrWidth_S</item>
+        <item name="android:layout_height">@dimen/heightOrWidth_S</item>
+        <item name="android:paddingRight">@dimen/paddingOrMar_M</item>
+    </style>
+
+    <!--Image style of back arrow, which brings user back-->
+    <style name="ImageBackArrow">
+        <item name="android:layout_width">@dimen/heightOrWidth_S</item>
+        <item name="android:layout_height">match_parent</item>
+        <item name="android:padding">@dimen/paddingOrMar_S</item>
+        <item name="android:src">@drawable/icon_arrow_back</item>
+    </style>
+</resources>
