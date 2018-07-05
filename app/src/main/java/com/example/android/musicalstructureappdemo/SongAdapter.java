@@ -1,4 +1,4 @@
-package com.example.android.musicalstructureapp;
+package com.example.android.musicalstructureappdemo;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,6 +8,8 @@ import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.android.musicalstructureapp.R;
 
 import java.util.ArrayList;
 

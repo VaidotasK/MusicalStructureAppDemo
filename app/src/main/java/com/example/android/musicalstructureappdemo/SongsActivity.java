@@ -1,4 +1,4 @@
-package com.example.android.musicalstructureapp;
+package com.example.android.musicalstructureappdemo;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -6,6 +6,8 @@ import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.ImageView;
 import android.widget.ListView;
+
+import com.example.android.musicalstructureapp.R;
 
 import java.util.ArrayList;
 

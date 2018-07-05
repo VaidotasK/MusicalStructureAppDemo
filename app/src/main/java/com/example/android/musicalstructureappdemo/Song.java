@@ -1,4 +1,4 @@
-package com.example.android.musicalstructureapp;
+package com.example.android.musicalstructureappdemo;
 
 /**
  * Created by Garra on 2018-05-22.
